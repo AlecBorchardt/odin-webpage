@@ -52,7 +52,7 @@ footer{
     display: flex;
     color: azure;
     background-color: #1f2937;
-    justify-self: flex-end; 
+    justify-content: center;  
 }
 header img{
     width: 150px;
@@ -83,6 +83,9 @@ li{
     padding: 10px;
     margin: 10px;
     list-style: none;
+}
+.random_info ul{
+    flex-wrap: wrap;
 }
 .random_info li{
     padding-top: 0;
