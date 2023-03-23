@@ -7,7 +7,7 @@ body{
 }
 header{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: #1f2937;
     align-items: center;
 }
@@ -16,7 +16,7 @@ header{
     flex-direction: row;
     background-color: #1f2937;
     color: azure;
-    padding: 40px;
+    padding: 0px 80px 0px;
 }
 .random_info{
     display: flex;
@@ -29,31 +29,41 @@ header{
     background-color: #c4c4c4;
     align-items: center;
 }
+.testimonial p{
+    width: 500px;
+}
 .action{
     display: flex;
     color: azure;
     background-color: rgb(93, 93, 255);
-    justify-content: space-between;
+    justify-content: space-around;
+    margin: 40px 80px;
+    padding: 30px 60px;
+    border-radius: 15px;
+}
+.action p{
+    margin: 0;
+}
+.action-text{
+    font-weight: 800;
+    font-size: 24px;
 }
 footer{
     display: flex;
     color: azure;
     background-color: #1f2937;
-    justify-self: flex-end;
-}
-
-img{
-    
+    justify-self: flex-end; 
 }
 header img{
-    width: 100px;
-    height: 50px;
+    width: 150px;
+    height: auto;
+    border-radius: 0 8px 8px 8px;
 }
 .random_info img{
     width: 150px;
     height: 150px;
     border-radius: 15px;
-    border: 4px solid blue;
+    border: 2px solid blue;
 }
 .random_info p{
     width: 150px;
@@ -61,6 +71,8 @@ header img{
 .hero_landing img{
     width: 400px;
     height: 200px;  
+    padding-left: 30px;
+    margin-bottom: 15px;
 }
 ul{
     display: flex;
@@ -72,7 +84,38 @@ li{
     margin: 10px;
     list-style: none;
 }
+.random_info li{
+    padding-top: 0;
+    margin-top: 0;
+}
 a{
     text-decoration: none;
     color: azure;
+}
+button{
+    border-radius: 5px;
+    padding: 4px 15px;
+    flex-grow: 0;
+    color: azure;
+    background-color: rgb(93, 93, 255);
+    cursor: pointer;
+}
+.action button{ 
+    border: 1px pink solid;
+    align-self: center;
+}
+.testimonial p{
+    padding-bottom: 0;
+    margin-bottom: 0;
+    font-size: 1.5em;
+    font-style: italic;
+    color: rgb(77, 77, 77);
+}
+h4{
+    padding-top: 0;
+    text-indent: 200px;
+    font-size: 16px;
+}
+h3{
+    font-size: 24px;
 }
